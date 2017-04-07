@@ -1,6 +1,4 @@
 
-
-
 /* Changes in the original code (by RodRivas): inserted 2 funcions: angulo() and setAngulo()
 that allows the user to choose some angles (in x and z axis) by pressing the numbers 5, 6, 7 and 8 before the shoot
 */
