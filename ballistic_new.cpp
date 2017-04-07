@@ -1,15 +1,15 @@
 
 
 
-/* Changes in this code (by RodRivas): inserted 2 funcions: angulo() and setAngulo()
+/* Changes in the original code (by RodRivas): inserted 2 funcions: angulo() and setAngulo()
 that allows the user to choose some angles (in x and z axis) by pressing the numbers 5, 6, 7 and 8 before the shoot
 */
 
-/* (PT)  Vers„o modificada do arquivo "ballistic.cpp" para implementaÁ„o de uma 
-guinada (nos eixos x e z) no angulo de tiro. AcrÈscimo das funÁıes: angulo() e setAngulo(). 
-AtravÈs das teclas "5,6,7 ou 8" o usu·rio modifica os valores da vari·vel sinCos, 
-implementando seno e cosseno (na vari·vel "position" dentro da funÁ„o render()), antes de o tiro ser disparado.
-Obs.: Ainda contÈm algus bugs
+/* (PT)  Vers√£o modificada do arquivo "ballistic.cpp" para implementa√ß√£o de uma 
+guinada (nos eixos x e z) no angulo de tiro. Acr√©scimo das fun√ß√µes: angulo() e setAngulo(). 
+Atrav√©s das teclas "5,6,7 ou 8" o usu√°rio modifica os valores da vari√°vel sinCos, 
+implementando seno e cosseno (na vari√°vel "position" dentro da fun√ß√£o render()), antes de o tiro ser disparado.
+Obs.: Ainda cont√©m algus bugs
 RodRivas
 */
 
@@ -168,7 +168,7 @@ const char* BallisticDemo::getTitle()
     return "RodriSoft > Cyclone > Ballistic Demo";
 }
 
-// FunÁ„o que eu criei 
+// Fun√ß√£o que eu criei 
 
 
 void BallisticDemo::fire()
@@ -297,7 +297,7 @@ void BallisticDemo::update()
 
 void BallisticDemo::display()
 {
-	//Apenas para a cor das linhas do ch„o ficarem azuis
+	//Apenas para a cor das linhas do ch√£o ficarem azuis
 	cyclone::Vector3 position;
 	            
     // Clear the viewport and set the camera direction
