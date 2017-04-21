@@ -1,5 +1,5 @@
 # Cyclone-Physics
-Some implementations in the Ballistic Demo of the Cyclone physics engine (from the book Game Physics Engine Development).
+Some implementations in the BigBallistic Demo of the Cyclone physics engine (from the book Game Physics Engine Development).
 
 /* Changes in this code (by RodRivas): inserted 2 funcions: angulo() and setAngulo()
 that allows the user to choose some angles (in x and z axis) by pressing the numbers 5, 6, 7 and 8 before the shoot
